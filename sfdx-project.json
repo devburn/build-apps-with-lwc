@@ -2,10 +2,19 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true
+            "default": true,
+            "package": "LookupFilterPack",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         }
     ],
-    "namespace": "",
+    "namespace": "shridevtool",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "49.0"
+    "sourceApiVersion": "50.0",
+    "packageAliases": {
+        "LookupFilterPack": "0Ho0o000000fxk0CAA",
+        "LookupFilterPack@0.1.0-1": "04t0o000003nRykAAE",
+        "LookupFilterPack@0.1.0-2": "04t0o000003nRypAAE",
+        "LookupFilterPack@0.1.0-3": "04t0o000003nSDfAAM"
+    }
 }
